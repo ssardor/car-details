@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <div className="grid grid-cols-10  gap-4">
-        <div className="hidden sm:hidden md:col-span-1">
+        <div className="hidden sm:hidden md:col-span-1 md:block">
           <div className=" relative;">
             <div
               className=" w-2/3 h-screen"
@@ -109,13 +109,13 @@ const App = () => {
                 <div className="w-full">
                   <img src={photo} alt="" />
                 </div>
-                <div className=" sm:hidden md:absolute md:bottom-3 start-10">
+                <div className="absolute bottom-3 start-10">
                   <img src={img1} alt="" />
                 </div>
-                <div className=" sm:hidden md:absolute md:bottom-3 start-44">
+                <div className="absolute bottom-3 start-44">
                   <img src={img2} alt="" />
                 </div>
-                <div className=" sm:hidden md:absolute md:bottom-3 start-80">
+                <div className="absolute bottom-3 start-80">
                   <img src={img3} alt="" />
                 </div>
               </div>
